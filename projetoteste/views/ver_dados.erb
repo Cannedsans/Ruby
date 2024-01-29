@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dados Cadastrados</title>
+    <link rel="stylesheet" type="text/css" href="style/estilo.css" />
+  </head>
+  <body>
+    <h1>Dados Cadastrados</h1>
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Dosagem</th>
+      </tr>
+      <% @medicamentos.each do |medicamento| %>
+      <tr>
+        <td><%= medicamento[0] %></td>
+        <td><%= medicamento[1] %></td>
+        <td><%= medicamento[2] %></td>
+      </tr>
+      <% end %>
+    </table>
+    <p><a href="/">Voltar</a></p>
+  </body>
+</html>
