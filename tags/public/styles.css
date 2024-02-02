@@ -1,0 +1,11 @@
+main{
+    border-radius: 15px;
+        background-color: aliceblue;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+}
+
+body{
+    background-image: linear-gradient(to left, #252525, rgb(124, 0, 0));
+}
