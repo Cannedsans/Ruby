@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero recebido</title>
+</head>
+<body>
+    <main>
+        <h1>Site que recebe um número</h1>
+        <form action="/num" method = "post">
+            <input type="number" name = "num">
+            <button type = "submit">Enviar um número</button>
+        </form>
+        <br>
+        <p>Numero recebido .: <%= @n %></p>
+    </main>
+</body>
+</html>
