@@ -1,8 +1,8 @@
 require 'mysql2'
 
-begin 
-conexao = Mysql2::Client.new( 
-	host: 'localhost',
+begin
+conexao = Mysql2::Client.new(
+	host: '192.168.0.102',
 	username: 'teste',
 	password: '',
 	database: 'testes'
